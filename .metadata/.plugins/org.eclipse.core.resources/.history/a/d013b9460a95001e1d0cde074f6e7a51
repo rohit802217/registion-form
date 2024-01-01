@@ -1,0 +1,46 @@
+package repleceofnumber;
+
+public class numberintoalpha {
+	static String digitintoalph(int n) {
+		int rem=0;
+		while(n<=0) {
+		  rem=n%10;
+		  n=n/10;
+		  switch(rem)
+		  {
+		  case 0:
+			  return "Zero";
+			  
+		  case 1:
+			  return "one";
+		  case 2:
+			  return "two";
+		  case 3:
+			  return "three";
+
+		  case 4:
+			  return "four";
+
+		  case 5:
+			  return "five";
+
+		  case 6:
+			  return "six";
+		  case 7:
+			  return "seven";
+		  case 8:
+			  return "eight";
+		  case 9:
+			  return "nine";
+			  
+   			  default : "indros";
+   			         break;
+		  
+		  }
+		
+	public static void main(String[] args) {
+		int n=5212;
+		System.out.println(digitintoalph(n));
+	}  
+
+}

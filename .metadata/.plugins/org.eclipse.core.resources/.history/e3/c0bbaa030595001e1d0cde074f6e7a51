@@ -1,0 +1,12 @@
+package repleceofnumber;
+
+public class revstring {
+	public static void main(String[] args) {
+		 String s="level";
+		 int n=s.length();
+	
+			 
+		 }
+	}
+
+}
